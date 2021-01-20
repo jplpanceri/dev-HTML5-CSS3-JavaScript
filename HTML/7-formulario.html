@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Formulário</h2>
+	<p>
+		Tag <b>form</b> é utilizada para criar formulários onde se pode colocar todo tipo de tag dentro.<br>
+		Atributo <b>action</b> é utilizado para dizer o endereço para onde os dados do formulário serão enviados.<br>
+		Atributo <b>method</b> é utilizado para definir a forma de envio dos dados, pode ter o valor post(mostra somente o valor de destino na barra de endereço) e get(mostra todos os dados).<br>
+		Tag <b>input</b> é utilizada para capiturar dados e ela possui os atributos type, name e value.<br>
+		Tag <b>select</b> é utilizada para criar uma caixinha com várias opções e que utiliza o atributo name.<br>
+		Tag <b>option</b> é utilizada para dar as opções da caixinha do select e que utiliza o atributo value.<br>
+		Atributo <b>type</b> define o tipo de entrada e tem os valores text(texto), password(texto oculto), radio(círculo de marcar, se a resposta for única, o valor do atributo name deve ser o mesmo pra todos), checkbox(quadrado de marcação, pro caso de existir limitação deve-se definir na página de destino), button(botão para clique) e submit(botão de envio).<br>
+		Atributo <b>name</b> define o nome que a entrada vai receber quando ela for para a outra página.<br>
+		Atributo <b>value</b> tem 2 funções a primeira é dar o valor a ser recebido pelo name quando utilizamos os tipos de entrada radio e checkbox, também dando o valor para a tag option. A outra é colocar o nome dentro dos tipos de entrada button e submit.<br>
+		Tag <b>textarea</b> é uma caixa de entrada de texto que pode ser expandida manualmente ou a medida que vai recebendo dados.
+	</p>
+
+	<form action="forum.php" method="post">
+		<h2>Cadastro:</h2>
+		Login
+		<input type="text" name="usuário"><br>
+		Senha
+		<input type="password" name="senha"><br>
+		<hr>
+		Sexo
+		<input type="radio" name="sexo" value="M"> Masculino <br>
+		<input type="radio" name="sexo" value="F"> Feminino
+		<hr>
+		Interesses
+		<input type="checkbox" name="interesse" value="futebol"> Futebol <br>
+		<input type="checkbox" name="interesse" value="Estudo"> Estudo
+		<hr>
+		Estado
+		<select name="estado">
+			<option value="estado">ES</option>
+			<option value="estado">RJ</option>
+		</select>
+		<hr>
+		Observação
+		<textarea></textarea>
+		<hr>
+		Submeter
+		<input type="submit" name="enviar" value="enviar">
+		<hr>
+		<input type="button" value="toque">
+	</form>
+
+</body>
+</html>
