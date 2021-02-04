@@ -1,0 +1,19 @@
+
+/* Utilizando seletor com nome de elemento*/
+h2 {
+	color: green;
+}
+p{
+	background-color: white;
+}
+/* Utilizando IDs*/
+#background {
+	background-color: gray; 
+}
+/* Utilizando Classes*/
+.cores1{
+	color: red;
+}
+.cores2{
+	color:blue;
+}
