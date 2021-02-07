@@ -1,0 +1,27 @@
+
+#fundo-img {
+	background-image: url("img/fundo-body.jpg"); /* colocando imagem de fundo*/
+}
+
+#util{
+	background-color: white; /* cor de fundo branca*/
+	margin: 15px 20px 15px 20px; /* top 15px right 20px botton 15px left 20px espaçamento externo*/ 
+	padding: 5px 20px 5px 20px; /* top 5px right 20px botton 5px left 20px espaçamento interno*/
+}
+
+#div1 {
+	background:blue url("img/rosavent.jpeg") no-repeat center; /* cor blue imagem s/repetição pos cent*/
+	height: 350px;
+}
+#div2 {
+	background:red url("img/rosavent.jpeg") no-repeat left; /* cor red imagem s/repetição pos esq*/
+	height: 350px;
+}
+#div3 {
+	background:green url("img/rosavent.jpeg") no-repeat right; /* cor green imagem s/repetição pos dir*/
+	height: 350px;
+}
+#div4 {
+	background:green url("img/rosavent.jpeg") repeat-x; /* cor green imagem c/rept e, x*/
+	height: 350px;
+}
