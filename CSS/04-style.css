@@ -1,0 +1,67 @@
+/* configuração inicial para zerar espaçamento de todos os elementos*/
+/* O seletor * é o seletor universal*/
+*{
+	margin: 0px; /* zerando espaçamento externo*/ 
+	/* seria igual escrever margin: 0px 0px 0px 0px; top righ botton left*/
+	/* ou margin: 0px 0px; top/bottom right/left*/
+	padding: 0px; /* zerando espaçamento interno*/
+	/* seria igual escrever padding: 0px 0px 0px 0px; top righ botton left*/
+	/* ou padding: 0px 0px; top/bottom right/left*/
+}
+body{
+	background-color: yellow; /*definindo cor de fundo da área utilizável do site*/
+}
+/*-------------------------------------------------------------------------------------------*/
+/*área útil*/
+/* para não repetir código estou colocando as informações comuns nas duas ids juntas*/
+.div0, .div1{
+	background-color: white;
+	border: 1px solid red; /*definindo borda das ids*/
+	margin: 10px 10px 10px 10px; /*definindo espaçamento externo*/
+	/*= margin: 10px; ou margin: 10px 10px; */
+	/* ou margin-top=10px, margin-right:10px, margin-bottom:10px, margin-left:10px*/
+	width: 400px;
+}
+.div0{
+	height: 80px;
+}
+.div1{
+	height: 75	px;
+	padding: 5px 5px 5px 5px; /*definindo espaçamento interno*/
+	/*= padding: 5px; ou padding: 5px 5px; */
+	/* ou padding-top=5px, padding-right:5px, padding-bottom:5px, padding-left:5px*/
+}
+/*-------------------------------------------------------------------------------------------------*/
+/*primeira div*/
+#m00, #m01, #m02 {
+	border:1px solid green;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#m00{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#m01{
+	margin-right: 15px;
+	margin-left: 5px;	
+}
+#m02{
+	margin-right: 5px;
+	margin-left: 15px;
+}
+
+/*segunda div*/
+#d00{
+	border:1px solid black;
+	padding: 5px 40px; /*top/botton 5px e right/left 40px*/
+/*top/botton 20px e right/left 10px*/
+}
+#d01{
+	border:1px solid blue;
+	padding: 10px 20px; /*top/botton 10px e right/left 20px*/
+}
+#d02{
+	border:1px solid red;
+	padding: 20px 10px; /*top/botton 20px e right/left 10px*/
+}
