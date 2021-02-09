@@ -1,0 +1,40 @@
+
+body{
+	background-color: yellow; /*definindo cor de fundo do site*/
+}
+/*área útil*/
+/*definindo espessura, estilo e cor para todos os lados da borda*/
+/*também poderia ser colocado dentro de cada propriedade para cada uma das bordas*/
+#div0 {
+	background-color: white; /*definindo cor de fundo da área util*/ 
+	border-width: 5px; /*definindo espessura da borda para todas*/
+	/*border-width: 5px 10px 15px 20px;*/
+	border-style: solid; /*definindo o tipo da borda*/
+	/*border-style: solid groove ridge inset;*/
+	border-color: red; /*definindo a cor da borda*/
+	/*border-width: red blue #ff6347 rgb(255, 99, 71); */
+}
+/*definindo para cada lado da borda espessura, estilo e cor separadamente*/
+#div1 {
+	border-top: 3px dashed green ; /*definindo espessura, estilo e cor da borda superior*/
+	border-right: 3px dashed green;/*definindo espessura, estilo e cor da borda direita*/
+	border-bottom: 3px dashed green;/*definindo espessura, estilo e cor da borda inferior*/
+	border-left: 3px dashed green; /*definindo espessura, estilo e cor da borda esquerda*/
+	margin: 10px 15px 10px 15px; /*gerando espaçamento exterior a div*/
+	padding: 5px; /*definindo espaçamento inferior a div*/
+}
+/*so uma variação da anterior para mostrar que não tem problema por estilos diferentes*/
+#div2 {
+	border-top: 3px solid black ;
+	border-right: 3px dotted black;
+	border-bottom: 3px dashed black;
+	border-left: 3px double black;
+	margin: 10px 15px 10px 15px;
+	padding: 5px;
+}
+/*definindo a borda pelo comando simplificado border*/
+#div3 {
+	border:5px solid gray;
+	margin: 10px 15px 10px 15px;
+	padding: 5px;
+}
