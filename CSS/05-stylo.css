@@ -1,0 +1,91 @@
+body{
+	background-color: yellow;
+}
+p{
+	border:1px solid black;
+}
+/*dimensionando os box*/
+#util, #util2 {
+	border:2px solid red;
+	background-color: white;
+}
+#util{
+	margin: 5px 400px;
+	height: 580px;
+}
+#util2{
+	margin: 5px 200px;
+	height: 100px;
+}
+/*colocando espaçamento nas caixas de texto e fonte*/
+#texto, #fonte-familia, #fonte-estilo, #fonte-tamanho{
+	margin: 5px;
+	padding: 5px;
+}
+#fonte-tamanho {
+	font-size: 32px; /*definindo um padrão de tamanho para a fonte dos textos*/
+}
+/*trabalhando com textos*/
+.centro{                   	
+	text-align: center; /*alinhando o texto no centro*/
+	text-decoration: underline; /*sublinhando o texto*/
+}
+.direita{
+	text-align: right; /*alinhando o texto á direita*/
+	text-decoration: overline; /*sublinhado por cima*/
+}
+.esquerda{
+	text-align: left; /*alinhando o texto á esquerda*/
+	text-decoration: line-through; /*riscando texto*/
+}
+.justificado{
+	text-align: justify; /*distribuindo o texto uniformemente pela margem*/
+	text-decoration: none; /*deixando o texto normal*/
+}
+/*trabalhando com fontes*/
+.p1{
+	/*primeiro tentar a fonte TNR, se não vai a times e se não for vai uma qualquer da familia serif*/
+	font-family: "Times New Roman", Times, serif;
+}
+.p2{
+	/*primeiro tentar a fonte arial, se não vai a helvetica e se não for vai uma qualquer da familia
+	 sans-serif*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+.p3{
+	/*primeiro tentar a fonte LC, se não vai a CN e se não for vai uma qualquer da familia monospace*/
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+.p4{
+	/*qualquer uma das duas ou não colocar nada deixa a fonte normal*/
+	font-weight: normal;
+	font-style: normal;
+}
+.p5{
+	/*também podemos colocar um número para representar a intensidade do negrito*/
+	font-weight: bold; /*colocando a fonte em negrito*/
+}
+.p6{
+	font-style: italic; /*colocando a fonte em itálico*/
+}
+.p7{
+	font-variant: small-caps; /*colocando texto com small-caps*/
+}
+.p8{
+	/*fazendo as config style variant weight size family*/
+	font: italic small-caps bold 20px Arial,helvetica,sans-serif;
+}
+/*trabalhando com tamanhos e unidades*/
+.p9{
+	background-color: blue;
+	font-size: 1em;	
+}
+.p10{
+	background-color: green;
+	font-size: 0.75em;
+}
+.p11{
+	background-color: red;
+	font-size: 0.5em;
+}
+
